@@ -15,10 +15,10 @@ def read_edge_list(path):
     print("already load the edge list of the graph, costs ", end - start)
     return edge_list
 
-#please update this path
+#please customize this path
 edge_list = read_edge_list(r'../Downloads/Wiki-Vote.txt')
 
-# dummy_input  = read_edge_list() # 注意输入type一定要np.float32!!!!!
+# dummy_input  = read_edge_list()
 class PageRank_CPU(nn.Module):
     def __init__(self):
         super().__init__()
