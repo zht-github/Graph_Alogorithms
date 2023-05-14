@@ -54,7 +54,7 @@ def avg_over_group(data,group_num,group_id,group_count,device):
         return res
 
 # read csv file
-df = pd.read_csv('../../csvs/lineitem.csv')
+df = pd.read_csv('lineitem.csv')
 
 print(df)
 # set device
